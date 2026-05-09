@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Deportistas Famosos</title>
+
+    <link rel="stylesheet" href="css/estilos.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+</head>
+
+<body>
+
+    <div class="fondo"></div>
+
+    <header>
+
+ <div class="logo">
+            🌟 SPORT LEGENDS
+        </div>
+
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="futbol.html">Fútbol</a>
+            <a href="basquet.html">Basquetbol</a>
+            <a href="tenis.html">Tenis</a>
+            <a href="contacto.html">Contacto</a>
+        </nav>
+
+    </header>
+
+    <section class="hero">
+        <h1>Los Mejores Deportistas del Mundo</h1>
+
+        <p>
+            Portafolio fotográfico interactivo con animaciones modernas
+        </p>
+
+        <button onclick="scrollGaleria()">
+            Explorar
+        </button>
+
+    </section>
+
+    <section class="titulo-seccion">
+        <h2>Galería Principal</h2>
+    </section>
+
+    <section class="galeria" id="galeria">
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1579952363873-27f3bade9f55?q=80&w=1200&auto=format&fit=crop">
+
+            <div class="overlay">
+                <h3>Lionel Messi</h3>
+                <p>Campeón Mundial</p>
+            </div>
+
+        </div>
+
+        <div class="card">
+
+            <img src="https://images.unsplash.com/photo-1546519638-68e109498ffc?q=80&w=1200&auto=format&fit=crop">
+
+            <div class="overlay">
+                <h3>Michael Jordan</h3>
+                <p>Leyenda NBA</p>
+            </div>
+
+        </div>
+
+        <div class="card">
+
+            <img src="https://images.unsplash.com/photo-1542144582-1ba00456b5e3?q=80&w=1200&auto=format&fit=crop">
+
+            <div class="overlay">
+                <h3>Novak Djokovic</h3>
+                <p>Grand Slam Champion</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="estadisticas">
+
+        <h2>Popularidad Deportiva</h2>
+
+        <canvas id="grafica"></canvas>
+
+    </section>
+
+    <footer>
+
+        <h3>SPORT LEGENDS</h3>
+
+        <p>
+            Sitio web moderno desarrollado con HTML5, CSS3 y JavaScript
+        </p>
+
+    </footer>
+
+    <script src="js/app.js"></script>
+
+</body>
+
+</html>
